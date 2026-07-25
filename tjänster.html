@@ -55,8 +55,16 @@
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Flyttstädning & Byggstädning",
-              "description": "Komplett flyttstädning och byggstädning för att klara besiktning."
+              "name": "Flyttstädning",
+              "description": "Komplett flyttstädning för att klara besiktning."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Byggstädning",
+              "description": "Professionell byggstädning efter renovering och nybyggnation."
             }
           },
           {
@@ -128,7 +136,13 @@
               </svg>
             </a>
             <a href="#flyttstadning-heading" class="service-nav__link">
-              Flyttstädning & byggstädning
+              Flyttstädning
+              <svg class="service-nav__icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 9l6 6 6-6" />
+              </svg>
+            </a>
+            <a href="#byggstadning-heading" class="service-nav__link">
+              Byggstädning
               <svg class="service-nav__icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M6 9l6 6 6-6" />
               </svg>
@@ -337,7 +351,7 @@
 
       <section class="section service-detail" aria-labelledby="flyttstadning-heading">
         <div class="container">
-          <h2 id="flyttstadning-heading" class="h2">Flyttstädning & byggstädning</h2>
+          <h2 id="flyttstadning-heading" class="h2">Flyttstädning</h2>
           
           <div class="accordion-section">
             <h3 class="accordion-section__title">Detta ingår i flyttstädningen</h3>
@@ -437,32 +451,13 @@
                   <div class="accordion__inner">
                     <p class="accordion__subtitle">Efter Rut-avdrag:</p>
                     <ul class="service-list">
-                      <li><strong>1:a / ca 50 kvm²:</strong> 2.000 - 3.000 kr</li>
-                      <li><strong>2:a / ca 50-70 kvm²:</strong> 2.700 - 3.700 kr</li>
-                      <li><strong>3:a / ca 70-85 kvm²:</strong> 3.000 - 4.400 kr</li>
-                      <li><strong>4:a / ca 90-100 kvm²:</strong> 4.000 - 5.100 kr</li>
-                      <li><strong>Bostad ca 100-150 kvm²:</strong> 5.000 - 6.000 kr</li>
-                      <li><strong>Bostad ca 150-180 kvm²:</strong> 5.700 - 7.700 kr</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion__item">
-                <button class="accordion__button" aria-expanded="false" aria-controls="accordion-flytt-extratjanster">
-                  <span class="accordion__title">Vi erbjuder även dessa extratjänster!</span>
-                  <svg class="accordion__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M6 9l6 6 6-6" />
-                  </svg>
-                </button>
-                <div class="accordion__content" id="accordion-flytt-extratjanster">
-                  <div class="accordion__inner">
-                    <ul class="service-list">
-                      <li><strong>Strykning av kläder:</strong> Professionell strykning av skjortor, blusar och andra plagg för att hålla dem släta och prydliga.</li>
-                      <li><strong>Inköp:</strong> Vi hjälper dig med att handla matvaror och andra nödvändigheter, så att du slipper ta dig till affären själv.</li>
-                      <li><strong>Byte av gardiner:</strong> Säsongsbyte eller uppfräschning av gardiner, inklusive nedtagning, upphängning och tvätt vid behov.</li>
-                      <li><strong>Byte av sängkläder:</strong> Regelbundet byte av lakan, påslakan och örngott för att hålla ditt sovrum fräscht och bekvämt.</li>
-                      <li><strong>Djupgående dammsugning av mattor och madrasser:</strong> Effektiv dammsugning som tar bort damm, smuts och allergener. Detta är särskilt viktigt för personer som lider av allergier, eftersom det minskar mängden kvalster och damm i hemmet.</li>
+                      <li><strong>1:a / ca 50 kvm:</strong> 2.000 - 3.000 kr</li>
+                      <li><strong>2:a / ca 50-70 kvm:</strong> 2.900 - 3.900 kr</li>
+                      <li><strong>3:a / ca 70-85 kvm:</strong> 3.500 - 4.500 kr</li>
+                      <li><strong>4:a / ca 90-100 kvm:</strong> 4.100 - 5.100 kr</li>
+                      <li><strong>Bostad ca 100-150 kvm:</strong> 5.000 - 6.200 kr</li>
+                      <li><strong>Bostad ca 150-180 kvm:</strong> 6.200 - 8.000 kr</li>
+                      <li><strong>Bostad 180+ kvm:</strong> enligt offert</li>
                     </ul>
                   </div>
                 </div>
@@ -498,6 +493,167 @@
 
           <div class="service-detail__actions">
             <a href="boka.html" class="btn btn--primary">Boka flyttstädning</a>
+            <a href="index.html" class="btn btn--ghost">Tillbaka</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section service-detail" aria-labelledby="byggstadning-heading">
+        <div class="container">
+          <h2 id="byggstadning-heading" class="h2">Byggstädning</h2>
+          
+          <div class="accordion-section">
+            <h3 class="accordion-section__title">Detta ingår i byggstädningen</h3>
+            
+            <div class="accordion">
+              <div class="accordion__item">
+                <button class="accordion__button" aria-expanded="false" aria-controls="accordion-bygg-1">
+                  <span class="accordion__title">Byggstädning</span>
+                  <svg class="accordion__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                </button>
+                <div class="accordion__content" id="accordion-bygg-1">
+                  <div class="accordion__inner">
+                    <ul class="service-list">
+                      <li><strong>Borttagning av byggdamm:</strong> och grov smuts från alla ytor</li>
+                      <li><strong>Sopning och våttorkning:</strong> av golv för att avlägsna byggrester</li>
+                      <li><strong>Rengöring av fönster:</strong> fönsterbrädor och karmar</li>
+                      <li><strong>Avtorkning av väggar:</strong> lister och dörrkarmar</li>
+                      <li><strong>Rengöring av dörrar:</strong> handtag och strömbrytare</li>
+                      <li><strong>Borttagning av fläckar:</strong> och rester från färg, silikon eller byggmaterial</li>
+                      <li><strong>Städning av sanitetsutrymmen:</strong> såsom toaletter och handfat</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion__item">
+                <button class="accordion__button" aria-expanded="false" aria-controls="accordion-bygg-2">
+                  <span class="accordion__title">Djupgående byggstädning</span>
+                  <svg class="accordion__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                </button>
+                <div class="accordion__content" id="accordion-bygg-2">
+                  <div class="accordion__inner">
+                    <p class="accordion__subtitle">Utöver standard moment:</p>
+                    <ul class="service-list">
+                      <li><strong>Fönsterputsning:</strong> både invändigt och utvändigt (där tillgängligt)</li>
+                      <li><strong>Dammsugning och våttorkning:</strong> av svårtillgängliga ytor och hörn</li>
+                      <li><strong>Rengöring av ventilationsgaller:</strong> element och andra installationer</li>
+                      <li><strong>Städning av höga ytor:</strong> som lampor och hyllor med hjälp av stege</li>
+                      <li><strong>Avlägsning av spindelväv:</strong> och damm från väggar och tak</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion__item">
+                <button class="accordion__button" aria-expanded="false" aria-controls="accordion-bygg-3">
+                  <span class="accordion__title">Städning av kök/pentry efter byggarbete</span>
+                  <svg class="accordion__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                </button>
+                <div class="accordion__content" id="accordion-bygg-3">
+                  <div class="accordion__inner">
+                    <ul class="service-list">
+                      <li><strong>Rengöring av köksluckor:</strong> bänkskivor och skåp utvändigt</li>
+                      <li><strong>Avtorkning av diskbänk:</strong> kranar och diskho för att avlägsna byggdamm</li>
+                      <li><strong>Rengöring av mikrovågsugn:</strong> och kylskåp utvändigt</li>
+                      <li><strong>Tömning och rengöring:</strong> av sopkärl</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion__item">
+                <button class="accordion__button" aria-expanded="false" aria-controls="accordion-bygg-4">
+                  <span class="accordion__title">Städning av badrum/toaletter efter byggarbete</span>
+                  <svg class="accordion__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                </button>
+                <div class="accordion__content" id="accordion-bygg-4">
+                  <div class="accordion__inner">
+                    <ul class="service-list">
+                      <li><strong>Rengöring av toaletter:</strong> handfat och kranar</li>
+                      <li><strong>Spegelputsning:</strong></li>
+                      <li><strong>Rengöring av kakel:</strong> och fogar för att avlägsna byggrester</li>
+                      <li><strong>Påfyllning av förbrukningsmaterial:</strong> som toalettpapper och tvål vid behov</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion__item">
+                <button class="accordion__button" aria-expanded="false" aria-controls="accordion-bygg-5">
+                  <span class="accordion__title">Storstädning av byggarbetsplatser</span>
+                  <svg class="accordion__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                </button>
+                <div class="accordion__content" id="accordion-bygg-5">
+                  <div class="accordion__inner">
+                    <ul class="service-list">
+                      <li><strong>Noggrann städning:</strong> av alla ytor och golv, inklusive borttagning av byggdamm</li>
+                      <li><strong>Städning bakom stora föremål:</strong> och utrustning</li>
+                    </ul>
+                    <p class="accordion__note"><strong>Städning av extra utrymmen:</strong> som förråd eller byggbodar kan tillkomma vid behov.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion__item">
+                <button class="accordion__button" aria-expanded="false" aria-controls="accordion-bygg-6">
+                  <span class="accordion__title">Prislista för byggstädning</span>
+                  <svg class="accordion__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                </button>
+                <div class="accordion__content" id="accordion-bygg-6">
+                  <div class="accordion__inner">
+                    <p class="accordion__subtitle">Pris per kvadratmeter (kvm):</p>
+                    <ul class="service-list">
+                      <li><strong>Standard byggstädning:</strong> 45–60 kr/kvm</li>
+                      <li><strong>Djupgående byggstädning:</strong> 60–80 kr/kvm</li>
+                      <li><strong>Storstädning av byggarbetsplatser:</strong> enligt offert</li>
+                    </ul>
+                    <p class="accordion__note">Slutpris beräknas utifrån lokalens/yttans storlek i kvm, städningsnivå och objektets skick. Kontakta oss för en exakt offert efter kostnadsfri besiktning.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion__item">
+                <button class="accordion__button" aria-expanded="false" aria-controls="accordion-bygg-7">
+                  <span class="accordion__title">Extra information</span>
+                  <svg class="accordion__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                </button>
+                <div class="accordion__content" id="accordion-bygg-7">
+                  <div class="accordion__inner">
+                    <ul class="service-list">
+                      <li><strong>Kostnadsfritt hembesök:</strong> där vi noggrant inspekterar lokalen och diskuterar kundens önskemål. Efter besöket ger vi en preliminär prisoffert baserat på vår bedömning.</li>
+                      <li><strong>Flexibla städtider:</strong> som passar din schemaläggning</li>
+                      <li><strong>Professionell personal:</strong> och erfaren personal</li>
+                      <li><strong>Allt ingår:</strong> alla nödvändiga städprodukter och utrustning ingår</li>
+                      <li><strong>Miljövänliga rengöringsmedel:</strong> tillgängliga</li>
+                      <li><strong>Försäkring:</strong> som täcker skador under städning</li>
+                      <li><strong>Städning enligt önskemål:</strong> och specifika behov</li>
+                      <li><strong>Support och kundservice:</strong> omedelbar tillgång</li>
+                      <li><strong>Kvalitetskontroll:</strong> regelbunden kvalitetskontroll och feedbacksystem</li>
+                      <li><strong>Flexibla betalningsalternativ:</strong> och fakturering</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-detail__actions">
+            <a href="boka.html" class="btn btn--primary">Boka byggstädning</a>
             <a href="index.html" class="btn btn--ghost">Tillbaka</a>
           </div>
         </div>
@@ -616,137 +772,6 @@
           </div>
 
           <div class="accordion-section" style="margin-top: var(--space-12);">
-            <h3 class="accordion-section__title">Detta ingår i byggstädningen</h3>
-            
-            <div class="accordion">
-              <div class="accordion__item">
-                <button class="accordion__button" aria-expanded="false" aria-controls="accordion-bygg-1">
-                  <span class="accordion__title">Byggstädning</span>
-                  <svg class="accordion__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M6 9l6 6 6-6" />
-                  </svg>
-                </button>
-                <div class="accordion__content" id="accordion-bygg-1">
-                  <div class="accordion__inner">
-                    <ul class="service-list">
-                      <li><strong>Borttagning av byggdamm:</strong> och grov smuts från alla ytor</li>
-                      <li><strong>Sopning och våttorkning:</strong> av golv för att avlägsna byggrester</li>
-                      <li><strong>Rengöring av fönster:</strong> fönsterbrädor och karmar</li>
-                      <li><strong>Avtorkning av väggar:</strong> lister och dörrkarmar</li>
-                      <li><strong>Rengöring av dörrar:</strong> handtag och strömbrytare</li>
-                      <li><strong>Borttagning av fläckar:</strong> och rester från färg, silikon eller byggmaterial</li>
-                      <li><strong>Städning av sanitetsutrymmen:</strong> såsom toaletter och handfat</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion__item">
-                <button class="accordion__button" aria-expanded="false" aria-controls="accordion-bygg-2">
-                  <span class="accordion__title">Djupgående byggstädning</span>
-                  <svg class="accordion__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M6 9l6 6 6-6" />
-                  </svg>
-                </button>
-                <div class="accordion__content" id="accordion-bygg-2">
-                  <div class="accordion__inner">
-                    <p class="accordion__subtitle">Utöver standard moment:</p>
-                    <ul class="service-list">
-                      <li><strong>Fönsterputsning:</strong> både invändigt och utvändigt (där tillgängligt)</li>
-                      <li><strong>Dammsugning och våttorkning:</strong> av svårtillgängliga ytor och hörn</li>
-                      <li><strong>Rengöring av ventilationsgaller:</strong> element och andra installationer</li>
-                      <li><strong>Städning av höga ytor:</strong> som lampor och hyllor med hjälp av stege</li>
-                      <li><strong>Avlägsning av spindelväv:</strong> och damm från väggar och tak</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion__item">
-                <button class="accordion__button" aria-expanded="false" aria-controls="accordion-bygg-3">
-                  <span class="accordion__title">Städning av kök/pentry efter byggarbete</span>
-                  <svg class="accordion__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M6 9l6 6 6-6" />
-                  </svg>
-                </button>
-                <div class="accordion__content" id="accordion-bygg-3">
-                  <div class="accordion__inner">
-                    <ul class="service-list">
-                      <li><strong>Rengöring av köksluckor:</strong> bänkskivor och skåp utvändigt</li>
-                      <li><strong>Avtorkning av diskbänk:</strong> kranar och diskho för att avlägsna byggdamm</li>
-                      <li><strong>Rengöring av mikrovågsugn:</strong> och kylskåp utvändigt</li>
-                      <li><strong>Tömning och rengöring:</strong> av sopkärl</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion__item">
-                <button class="accordion__button" aria-expanded="false" aria-controls="accordion-bygg-4">
-                  <span class="accordion__title">Städning av badrum/toaletter efter byggarbete</span>
-                  <svg class="accordion__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M6 9l6 6 6-6" />
-                  </svg>
-                </button>
-                <div class="accordion__content" id="accordion-bygg-4">
-                  <div class="accordion__inner">
-                    <ul class="service-list">
-                      <li><strong>Rengöring av toaletter:</strong> handfat och kranar</li>
-                      <li><strong>Spegelputsning:</strong></li>
-                      <li><strong>Rengöring av kakel:</strong> och fogar för att avlägsna byggrester</li>
-                      <li><strong>Påfyllning av förbrukningsmaterial:</strong> som toalettpapper och tvål vid behov</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion__item">
-                <button class="accordion__button" aria-expanded="false" aria-controls="accordion-bygg-5">
-                  <span class="accordion__title">Storstädning av byggarbetsplatser</span>
-                  <svg class="accordion__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M6 9l6 6 6-6" />
-                  </svg>
-                </button>
-                <div class="accordion__content" id="accordion-bygg-5">
-                  <div class="accordion__inner">
-                    <ul class="service-list">
-                      <li><strong>Noggrann städning:</strong> av alla ytor och golv, inklusive borttagning av byggdamm</li>
-                      <li><strong>Städning bakom stora föremål:</strong> och utrustning</li>
-                    </ul>
-                    <p class="accordion__note"><strong>Städning av extra utrymmen:</strong> som förråd eller byggbodar kan tillkomma vid behov.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-section" style="margin-top: var(--space-12);">
-            <h3 class="accordion-section__title">Vi erbjuder även dessa extratjänster!</h3>
-            
-            <div class="accordion">
-              <div class="accordion__item">
-                <button class="accordion__button" aria-expanded="false" aria-controls="accordion-foretag-extratjanster">
-                  <span class="accordion__title">Vi erbjuder även dessa extratjänster!</span>
-                  <svg class="accordion__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M6 9l6 6 6-6" />
-                  </svg>
-                </button>
-                <div class="accordion__content" id="accordion-foretag-extratjanster">
-                  <div class="accordion__inner">
-                    <ul class="service-list">
-                      <li><strong>Strykning av kläder:</strong> Professionell strykning av skjortor, blusar och andra plagg för att hålla dem släta och prydliga.</li>
-                      <li><strong>Inköp:</strong> Vi hjälper dig med att handla matvaror och andra nödvändigheter, så att du slipper ta dig till affären själv.</li>
-                      <li><strong>Byte av gardiner:</strong> Säsongsbyte eller uppfräschning av gardiner, inklusive nedtagning, upphängning och tvätt vid behov.</li>
-                      <li><strong>Byte av sängkläder:</strong> Regelbundet byte av lakan, påslakan och örngott för att hålla ditt sovrum fräscht och bekvämt.</li>
-                      <li><strong>Djupgående dammsugning av mattor och madrasser:</strong> Effektiv dammsugning som tar bort damm, smuts och allergener. Detta är särskilt viktigt för personer som lider av allergier, eftersom det minskar mängden kvalster och damm i hemmet.</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-section" style="margin-top: var(--space-12);">
             <h3 class="accordion-section__title">Extra information</h3>
             
             <div class="accordion">
@@ -835,26 +860,6 @@
                   <div class="accordion__inner">
                     <ul class="service-list">
                       <li><strong>Användning av avancerad teknik och utrustning:</strong> för att effektivt ta bort hårt sittande smuts och fläckar, för ett skinande rent resultat.</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion__item">
-                <button class="accordion__button" aria-expanded="false" aria-controls="accordion-fonster-extratjanster">
-                  <span class="accordion__title">Vi erbjuder även dessa extratjänster!</span>
-                  <svg class="accordion__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M6 9l6 6 6-6" />
-                  </svg>
-                </button>
-                <div class="accordion__content" id="accordion-fonster-extratjanster">
-                  <div class="accordion__inner">
-                    <ul class="service-list">
-                      <li><strong>Strykning av kläder:</strong> Professionell strykning av skjortor, blusar och andra plagg för att hålla dem släta och prydliga.</li>
-                      <li><strong>Inköp:</strong> Vi hjälper dig med att handla matvaror och andra nödvändigheter, så att du slipper ta dig till affären själv.</li>
-                      <li><strong>Byte av gardiner:</strong> Säsongsbyte eller uppfräschning av gardiner, inklusive nedtagning, upphängning och tvätt vid behov.</li>
-                      <li><strong>Byte av sängkläder:</strong> Regelbundet byte av lakan, påslakan och örngott för att hålla ditt sovrum fräscht och bekvämt.</li>
-                      <li><strong>Djupgående dammsugning av mattor och madrasser:</strong> Effektiv dammsugning som tar bort damm, smuts och allergener. Detta är särskilt viktigt för personer som lider av allergier, eftersom det minskar mängden kvalster och damm i hemmet.</li>
                     </ul>
                   </div>
                 </div>
